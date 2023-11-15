@@ -22,9 +22,9 @@ SUDO_USERS = list(map(int, getenv("SUDO_USERS", "").split())) # SUDO_USERS same 
 # IMAGES
 PING_IMG = getenv("PING_IMG", None) # PING_IMG A pic link that's use to check bot ping 
 START_IMG = getenv("START_IMG", None) # START_IMG A pic link that's use to start the bot
-FAILED = getenv("FAILED", None)
+FAILED = getenv("FAILED", None) # FAILED A pic link to use to show when you playing any song on vc
 
 # SUPPORTS
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", None)
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", None)
-LOGGER_ID = getenv("LOGGER_ID", None)
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", None) # SUPPORT_CHAT A support group username without @
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", None) # SUPPORT_CHANNEL A support channel username without @
+LOGGER_ID = getenv("LOGGER_ID", None) # LOGGER_ID A logger group id get it by added miss rose bot in ur group and send/id in ur group
