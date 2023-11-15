@@ -1,13 +1,13 @@
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
-
+# importing some necessary module
 import config
 from Rabbit import BOT_USERNAME
-
+# making inline button
 close_key = InlineKeyboardMarkup(
     [[InlineKeyboardButton(text="• ᴄʟᴏsᴇ •", callback_data="close")]]
 )
 
-
+# making play buttons
 buttons = InlineKeyboardMarkup(
     [
         [
@@ -19,7 +19,7 @@ buttons = InlineKeyboardMarkup(
     ]
 )
 
-
+# creating start button
 pm_buttons = [
     [
         InlineKeyboardButton(
@@ -40,7 +40,7 @@ pm_buttons = [
     ],
 ]
 
-
+# creating group start button
 gp_buttons = [
     [
         InlineKeyboardButton(
@@ -60,7 +60,7 @@ gp_buttons = [
     ],
 ]
 
-
+# creating help manu for the bot 
 helpmenu = [
     [
         InlineKeyboardButton(
@@ -78,10 +78,11 @@ helpmenu = [
     ],
 ]
 
-
+# creating help back button for bot help manu 
 help_back = [
     [InlineKeyboardButton(text="• sᴜᴩᴩᴏʀᴛ •", url=config.SUPPORT_CHAT)],
     [
         InlineKeyboardButton(text="• ʙᴀᴄᴋ •", callback_data="rabbit_help"),
         InlineKeyboardButton(text="• ᴄʟᴏsᴇ •", callback_data="close"),
     ],
+# code by MrRaBBiT on telegram
