@@ -59,7 +59,9 @@ Required :-
 Bot Link Will Soon Provide 
 
 -------
-
+-------
+> apt update && apt upgrade
+-------
 
 -------
 
