@@ -12,13 +12,14 @@ from Rabbit import (
     BOT_NAME,
     BOT_USERNAME,
     LOGGER,
-    SUNAME,
     app,
     app2,
     pytgcalls,
 )
 # importing all modules
 from Rabbit.Modules import ALL_MODULES
+from config import LOGGER_USERNAME 
+LOGGER_GRP = config.LOGGER_USERNAME.split("me/")[1]
 
 # connecting all modules with the bot
 async def rabbit_startup():
@@ -36,7 +37,7 @@ async def rabbit_startup():
 # sending message is logger group
     try:
         await app.send_message(
-            SUNAME,
+            LOGGER_GRP,
             f"** {BOT_NAME} started successfully**\n\n **__don't forgot to join @RaBBiT_GuYs__**\n\n Enjoy ur Bot 🎧",
         )
     except:
@@ -46,7 +47,7 @@ async def rabbit_startup():
 
     try:
         await app2.send_message(
-            SUNAME,
+            LOGGER_GRP,
             f"**{BUNNY_NAME} started successfully**\n\n **__don't forgot to join @RaBBiT_GuYs__**\n\n Enjoy ur Bot 🎧",
         )
     except:
