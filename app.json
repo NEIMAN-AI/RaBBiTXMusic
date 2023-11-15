@@ -41,6 +41,11 @@
         "value": "",
         "required": true
       },
+      "PING_IMG": {
+        "description": "a",
+        "value": "",
+        "required": true
+      },
       "START_IMG": {
         "description": "a",
         "value": "",
