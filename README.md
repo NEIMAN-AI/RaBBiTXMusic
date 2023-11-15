@@ -63,14 +63,14 @@ Bot Link Will Soon Provide
 
 -------
 
-## Disclaimer
+## Credits
   
->                     ❗YOU ARE FOREWARNED❗
+>                      🎧 share your feedback 🎧
 
  
->              💖 Thanks for using our repo 💖
+>              💙 Thanks for using our repo 💙
 
 </details>
 
 
-> Made with your love and by [MrRaBBiT](https://t.me/fuck_uff_XD).    
+> Made with your love and by [@MrRaBBiT](https://t.me/fuck_uff_XD).    
