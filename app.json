@@ -36,9 +36,14 @@
         "value": "",
         "required": true
       },
-      "FAILED":{
+      "FAILED": {
         "description": "FAILED fill here a Pic Link",
         "value": "",
+        "required": true
+      },
+      "PMPERMIT": {
+        "description": "Change to turn off",
+        "value": "ENABLE",
         "required": true
       },
       "OWNER_ID": {
