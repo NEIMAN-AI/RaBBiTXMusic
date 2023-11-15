@@ -2,6 +2,9 @@ from os import getenv
 
 from dotenv import load_dotenv
 
+# A config.py file for Music Bot 
+# code by © @ITZ-RaBBiT
+
 load_dotenv()
 
 # API_IDS
