@@ -1,9 +1,9 @@
 import asyncio
 import importlib
 import os
-
+# importing some necessary modules
 from pyrogram import idle
-
+# importing some variables from __init__.py
 from Rabbit import (
     BUNNY_ID,
     BUNNY_NAME,
@@ -17,9 +17,10 @@ from Rabbit import (
     app2,
     pytgcalls,
 )
+# importing all modules
 from Rabbit.Modules import ALL_MODULES
 
-
+# connecting all modules with the bot
 async def rabbit_startup():
     LOGGER.info("[•] Loading Modules...")
     for module in ALL_MODULES:
@@ -32,7 +33,7 @@ async def rabbit_startup():
     if "cache" not in os.listdir():
         os.mkdir("cache")
     LOGGER.info("[•] Directories Refreshed.")
-
+# sending message is logger group
     try:
         await app.send_message(
             SUNAME,
@@ -64,7 +65,7 @@ async def rabbit_startup():
     await pytgcalls.start()
     await idle()
 
-
+# starting the bot
 if __name__ == "__main__":
     asyncio.get_event_loop().run_until_complete(rabbit_startup())
     LOGGER.error("rabbit Music Bot Stopped. bye bye !!")
