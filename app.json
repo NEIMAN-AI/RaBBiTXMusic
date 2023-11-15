@@ -1,6 +1,6 @@
 {
     "name": "ʀᴀʙʙɪᴛx ダ ᴍᴜsɪᴄ",
-    "description": "A VC Player Bot for telegram videochats, written in Python with Pyrogram and Py-Tgcalls.",
+    "description": "A music Player Bot repo which can Play music in telegram video chats made with python py-tgcalls and ur love .",
     "logo": "https://graph.org/file/bea4c637157671d1f4fa9.jpg",
     "keywords": [
     "python3",
@@ -12,27 +12,27 @@
     ],
     "env": {
       "API_ID": {
-        "description": "Get this value from https://my.telegram.org",
+        "description": "API_ID get it from https://my.telegram.org",
         "value": "",
         "required": true
       },
       "API_HASH": {
-        "description": "Get this value from https://my.telegram.org",
+        "description": "API_HASH get it from https://my.telegram.org",
         "value": "",
         "required": true
       },
       "BOT_TOKEN": {
-        "description": "A Bot's token from Botfather",
+        "description": "BOT_TOKEN get it from @Botfather on telegram",
         "value": "",
         "required": true
       },
       "LOGGER_ID": {
-        "description": "a",
+        "description": "LOGGER_ID get it from telegram make prvt group and fill here that's group id",
         "value": "",
         "required": true
       },
       "FAILED":{
-        "description": "a",
+        "description": "FAILED fill here a Pic Link",
         "value": "",
         "required": true
       },
@@ -42,12 +42,12 @@
         "required": true
       },
       "PING_IMG": {
-        "description": "a",
+        "description": "PING_IMG fill here a ping pic link",
         "value": "",
         "required": true
       },
       "START_IMG": {
-        "description": "a",
+        "description": "START_IMG fill here a Start pic link",
         "value": "",
         "required": true
       },
