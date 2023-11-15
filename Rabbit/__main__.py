@@ -37,7 +37,7 @@ async def rabbit_startup():
     try:
         await app.send_message(
             SUNAME,
-            f" : @{BOT_USERNAME}",
+            f"** {BOT_NAME} started successfully**\n\n **__don't forgot to join @RaBBiT_GuYs__**\n\n Enjoy ur Bot 🎧",
         )
     except:
         LOGGER.error(
@@ -47,7 +47,7 @@ async def rabbit_startup():
     try:
         await app2.send_message(
             SUNAME,
-            f";!#!#(#!#+#;#;}",
+            f"**{BUNNY_NAME} started successfully**\n\n **__don't forgot to join @RaBBiT_GuYs__**\n\n Enjoy ur Bot 🎧",
         )
     except:
         LOGGER.error(
