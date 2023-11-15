@@ -22,3 +22,4 @@ SUPPORT_CHAT = getenv("SUPPORT_CHAT", None)
 SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", None)
 
 SUDO_USERS = list(map(int, getenv("SUDO_USERS", "").split()))
+LOGGER_ID = getenv("LOGGER_ID", None)
