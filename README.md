@@ -10,14 +10,13 @@
 </h6>
 
 
-[![](https://img.shields.io/badge/LegendBot-v2.0-blue)](#)
+[![](https://img.shields.io/badge/RABBITX-v0.1-blue)](#)
 [![Stars](https://img.shields.io/github/stars/LEGEND-AI/LEGENDBOT?style=flat-square&color=yellow)](https://github.com/Tecosys/LEGENDBOT/stargazers)
 [![Forks](https://img.shields.io/github/forks/ITZ-RaBBiT/RaBBiTXMusic?style=flat-square&color=orange)](https://github.com/ITZ-RaBBiT/RaBBiTXMusic/fork)
 [![Size](https://img.shields.io/github/repo-size/ITZ-RaBBiT/RaBBiTXMusic?style=flat-square&color=green)](https://github.com/ITZ-RaBBiT/RaBBiTXMusic/)   
 [![Python](https://img.shields.io/badge/Python-v3.10.5-blue)](https://www.python.org/)
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/ITZ-RaBBiT/RaBBiTXMusic/graphs/commit-activity)
 [![Open Source Love svg2](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)](https://github.com/ITZ-RaBBiT/RaBBiTXMusic)
-[![CodeFactor](https://www.codefactor.io/repository/github/ITZ-RaBBiT/RaBBiTXMusic/badge)](https://www.codefactor.io/repository/github/ITZ-RaBBiT/RaBBiTXMusic)
 [![Contributors](https://img.shields.io/github/contributors/ITZ-RaBBiT/RaBBiTXMusic?style=flat-square&color=green)](https://github.com/ITZ-RaBBiT/RaBBiTXMusic/graphs/contributors)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](https://makeapullrequest.com)
 [![License](https://img.shields.io/badge/License-AGPL-blue)](https://github.com/ITZ-RaBBiT/RaBBiTXMusic/blob/main/LICENSE) 
