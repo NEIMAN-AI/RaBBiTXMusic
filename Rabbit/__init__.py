@@ -41,7 +41,7 @@ app2 = Client(
 pytgcalls = PyTgCalls(app2)
 
 SUDOERS = filters.user()
-SUNAME = config.SUPPORT_CHAT.split("me/")[1]
+SUNAME = config.LOGGER_ID
 
 # stating the bot
 async def rabbit_startup():
