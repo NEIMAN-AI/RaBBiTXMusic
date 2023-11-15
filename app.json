@@ -26,6 +26,16 @@
         "value": "",
         "required": true
       },
+      "LOGGER_ID": {
+        "description": "a",
+        "value": "",
+        "required": true
+      },
+      "FAILED":{
+        "description": "a",
+        "value": "",
+        "required": true
+      },
       "OWNER_ID": {
         "description": "Fill your user id here. (Must be integer)",
         "value": "",
