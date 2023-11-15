@@ -85,4 +85,5 @@ help_back = [
         InlineKeyboardButton(text="• ʙᴀᴄᴋ •", callback_data="rabbit_help"),
         InlineKeyboardButton(text="• ᴄʟᴏsᴇ •", callback_data="close"),
     ],
+ ]
 # code by MrRaBBiT on telegram
