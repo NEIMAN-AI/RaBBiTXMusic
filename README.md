@@ -85,21 +85,20 @@ you can generate session by heroku console by running `python3 session.py` soo d
 
 >     vi sample.env
 
-Rename the env file by : `mv sample.env .env`
+>     Rename the env file by : `mv sample.env .env`
 
 >     apt install tmux && tmux
 
 >     bash bunny
 -------
 
-## Credits
-  
->                      🎧 share your feedback 🎧
+<h3 align="center">
+    ─「 ᴄʀᴇᴅɪᴛs 」─
+</h3>
 
- 
->              💙 Thanks for using our repo 💙
+- <b>[MrRaBBiT](https://t.me/fuck_uff_XD)  ғᴏʀ  [RaBBiTXMusic](https://github.com/ITZ-RaBBiT/RaBBiTXMusic) </b>
+- <b>[ITZ-RaBBiT](https://github.com/ITZ-RaBBiT)  ғᴏʀ  [pyrogram](https://github.com/pyrogram/pyrogram) </b>
+- <b>[GitHub](https://github.com)  ғᴏʀ  [ᴘʏ-ᴛɢᴄᴀʟʟs](https://github.com/pytgcalls/pytgcalls) </b>
 
-</details>
 
-
-> Made with your love and by [@MrRaBBiT](https://t.me/fuck_uff_XD).    
+━━━━━━━━━━━━━━━━━━━━
