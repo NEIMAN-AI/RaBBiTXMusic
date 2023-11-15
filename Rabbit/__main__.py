@@ -17,6 +17,7 @@ from Rabbit import (
     pytgcalls,
 )
 # importing all modules
+import config
 from Rabbit.Modules import ALL_MODULES
 from config import LOGGER_USERNAME 
 LOGGER_GRP = config.LOGGER_USERNAME.split("me/")[1]
