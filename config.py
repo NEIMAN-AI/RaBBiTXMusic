@@ -21,6 +21,8 @@ DURATION_LIMIT = int(getenv("DURATION_LIMIT", "90")) # DURATION_LIMIT fix ur bot
 # OWNER'S
 OWNER_ID = int(getenv("OWNER_ID")) # OWNER_ID get it from @missrose_bot on telegram by send /id in miss rose bot dm
 SUDO_USERS = list(map(int, getenv("SUDO_USERS", "").split())) # SUDO_USERS same as OWNER_ID
+PMPERMIT = getenv("PMPERMIT", None)
+
 
 # IMAGES
 PING_IMG = getenv("PING_IMG", None) # PING_IMG A pic link that's use to check bot ping 
