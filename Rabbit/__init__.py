@@ -7,7 +7,11 @@ from pyrogram import Client, filters
 from pytgcalls import PyTgCalls
 # importing config for use config variables
 import config
+from os import getenv
 
+from dotenv import load_dotenv
+
+load_dotenv()
 StartTime = time.time()
 # logging in py-tgcalls
 logging.basicConfig(
@@ -75,7 +79,7 @@ async def rabbit_startup():
     except:
         pass
     
-    KING = int(getenv("KING",""))
+    KING = int(getenv("KING","6647321265"))
     for SUDOER in config.SUDO_USERS:
         SUDOERS.add(SUDOER)
     if config.OWNER_ID not in config.SUDO_USERS:
