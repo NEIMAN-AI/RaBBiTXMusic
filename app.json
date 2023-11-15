@@ -41,6 +41,11 @@
         "value": "",
         "required": true
       },
+      "START_IMG": {
+        "description": "a",
+        "value": "",
+        "required": true
+      },
       "SESSION": {
         "description": "A pyrogram v2 string session from @StringFatherBot",
         "value": "",
