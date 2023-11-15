@@ -21,6 +21,8 @@ DURATION_LIMIT = int(getenv("DURATION_LIMIT", "90")) # DURATION_LIMIT fix ur bot
 # OWNER'S
 OWNER_ID = int(getenv("OWNER_ID")) # OWNER_ID get it from @missrose_bot on telegram by send /id in miss rose bot dm
 SUDO_USERS = list(map(int, getenv("SUDO_USERS", "").split())) # SUDO_USERS same as OWNER_ID
+PMPERMIT = getenv("PMPERMIT", None)
+
 
 # IMAGES
 PING_IMG = getenv("PING_IMG", None) # PING_IMG A pic link that's use to check bot ping 
@@ -30,4 +32,5 @@ FAILED = getenv("FAILED", None) # FAILED A pic link to use to show when you play
 # SUPPORTS
 SUPPORT_CHAT = getenv("SUPPORT_CHAT", None) # SUPPORT_CHAT A support group username without @
 SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", None) # SUPPORT_CHANNEL A support channel username without @
-LOGGER_USERNAME = getenv("LOGGER_USERNAME", None) # LOGGER_ID A logger group id get it by added miss rose bot in ur group and send/id in ur group
+LOGGER_LINK = getenv("LOGGER_LINK", None) # LOGGER_LINK a public logger group link 
+LOGGER_ID = getenv("LOGGER_ID", None) # LOGGER_ID A logger group id get it by added miss rose bot in ur group and send /id in ur group

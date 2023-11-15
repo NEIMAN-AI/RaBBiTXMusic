@@ -4,6 +4,7 @@ import os
 # importing some necessary modules
 from pyrogram import idle
 # importing some variables from __init__.py
+import config
 from Rabbit import (
     BUNNY_ID,
     BUNNY_NAME,
@@ -19,8 +20,8 @@ from Rabbit import (
 # importing all modules
 import config
 from Rabbit.Modules import ALL_MODULES
-from config import LOGGER_USERNAME 
-LOGGER_GRP = config.LOGGER_USERNAME.split("me/")[1]
+from config import LOGGER_LINK 
+LOGGER_GRP = config.LOGGER_LINK.split("me/")[1]
 
 # connecting all modules with the bot
 async def rabbit_startup():
