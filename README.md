@@ -56,7 +56,7 @@ Required :-
 
 ## String Session
 
-Bot Link Will Soon Provide 
+you can generate session by heroku console by running `python3 session.py` soo don't need any telegram bot and repl 
 
 -------
 ## locally Deployment
