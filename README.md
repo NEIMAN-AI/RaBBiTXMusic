@@ -41,14 +41,15 @@ Required :-
 
 - `APP_ID`  =  Get this value from my.telegram.org
 - `API_HASH`  =  Get this value from my.telegram.org
-- `SESSION`  =  Get this by using bot or from [terminal](#Terminal)
+- `SESSION`  =  Get this by using bot on telegram 
 - `BOT_TOKEN`  =  Make A Bot From [@BotFather](https://t.me/botfather) and paste it's token.
-- `DB_URI` = Use Sql Database  From elephantsql.com
-- `HANDLER` = Use Your Command Handler Any Symbol
-- `EXTERNAL_REPO` = True / False
-- `UPSTREAM_REPO` = pro
-- `TZ` = Asia/Kolkata 
-- `VCMODE` = True/False
+- `SUPPORT_CHAT` = Use any public group link
+- `SUPPORT_CHANNEL` = Use any public channel link
+- `OWNER_ID` = ur telegram account id
+- `SUDO_USERS` = same as OWNER_ID
+- `START_IMG` = A start pic link
+- `FAIELD` = A any pic link
+- `PING_IMG` = A ping pic link
   
 Optional :-
 
