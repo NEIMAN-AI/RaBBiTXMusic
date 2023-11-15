@@ -5,8 +5,8 @@ from youtubesearchpython.__future__ import VideosSearch
 
 import config
 from Rabbit import BOT_MENTION, BOT_NAME, app
-from Rabbit.Helpers import gp_buttons, pm_buttons
-from Rabbit.Helpers.dossier import *
+from Rabbit.Powers import gp_buttons, pm_buttons
+from Rabbit.Powers.dossier import *
 
 
 @app.on_message(filters.command(["start"]) & ~filters.forwarded)
