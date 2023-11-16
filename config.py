@@ -32,8 +32,7 @@ FAILED = getenv("FAILED", None) # FAILED A pic link to use to show when you play
 # SUPPORTS
 SUPPORT_CHAT = getenv("SUPPORT_CHAT", None) # SUPPORT_CHAT A support group username without @
 SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", None) # SUPPORT_CHANNEL A support channel username without @
-LOGGER_LINK = getenv("LOGGER_LINK", None) # LOGGER_LINK a public logger group link 
-LOGGER_ID = getenv("LOGGER_ID", None) # LOGGER_ID A logger group id get it by added miss rose bot in ur group and send /id in ur group
+LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "")) # LOG_GROUP_ID must be private group id
 
 # DATABASES
 MONGODB_URL = getenv("MONGODB_URL", None) # MONGODB_URL get it from mongodb.com
