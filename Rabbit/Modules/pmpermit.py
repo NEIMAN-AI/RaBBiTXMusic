@@ -5,6 +5,7 @@ from config import PMPERMIT
 from pyrogram import filters
 from pyrogram.types import Message
 from Rabbit import app2 as USER
+from Rabbit import BOT_NAME
 
 PMSET =True
 pchats = []
@@ -18,7 +19,7 @@ async def pmPermit(client: USER, message: Message):
                 return
             await USER.send_message(
                 message.chat.id,
-                "Hi there, This is a music assistant service .\n\n • Rules:\n   - No chatting allowed\n   - No spam allowed \n\n • **SEND GROUP INVITE LINK OR USERNAME IF USERBOT CAN'T JOIN YOUR GROUP.**\n\n ⚠️ Disclamer: If you are sending a message here it means admin will see your message and join chat\n    - Don't add this user to secret groups.\n   - Don't Share private info here\n\n",
+                "ʜɪ ᴛʜᴇʀᴇ, ᴛʜɪs ɪs {BOT_NAME} ᴀssɪsᴛᴀɴᴛ sᴇʀᴠɪᴄᴇ .\n•────────────────•\n •➢ 𝘙𝘶𝘭𝘦𝘴:\n   » ɴᴏ ᴄʜᴀᴛᴛɪɴɢ ᴀʟʟᴏᴡᴇᴅ\n   » ɴᴏ sᴘᴀᴍ ᴀʟʟᴏᴡᴇᴅ \n   » ᴅᴏɴ'ᴛ ᴀᴅᴅ ᴛʜɪs ᴜsᴇʀ ᴛᴏ sᴇᴄʀᴇᴛ ɢʀᴏᴜᴘs.\n   » ᴅᴏɴ'ᴛ sʜᴀʀᴇ ᴘʀɪᴠᴀᴛᴇ ɪɴғᴏ ʜᴇʀᴇ\n•────────────────•\n •➢ 𝘚𝘌𝘕𝘋 𝘎𝘙𝘖𝘜𝘗 𝘐𝘕𝘝𝘐𝘛𝘌 𝘓𝘐𝘕𝘒 𝘖𝘙 𝘜𝘚𝘌𝘙𝘕𝘈𝘔𝘌 𝘐𝘍 𝘈𝘚𝘚𝘐𝘚𝘛𝘈𝘕𝘛 𝘊𝘈𝘕'𝘛 𝘑𝘖𝘐𝘕 𝘠𝘖𝘜𝘙 𝘎𝘙𝘖𝘜𝘗.\n•────────────────•\n•➢ 𝘕𝘖𝘛𝘌 :  ɪғ ʏᴏᴜ ᴀʀᴇ sᴇɴᴅɪɴɢ ᴀ ᴍᴇssᴀɢᴇ ʜᴇʀᴇ ɪᴛ ᴍᴇᴀɴs ᴀᴅᴍɪɴ ᴡɪʟʟ sᴇᴇ ʏᴏᴜʀ ᴍᴇssᴀɢᴇ ᴀɴᴅ ᴊᴏɪɴ ᴄʜᴀᴛ",
             )
             return
 
@@ -32,11 +33,11 @@ async def bye(client: Client, message: Message):
         queryy = text[1]
         if queryy == "on":
             PMSET = True
-            await message.reply_text("Pmpermit turned on")
+            await message.reply_text("ᴘᴍᴘᴇʀᴍɪᴛ ᴛᴜʀɴᴇᴅ ᴏɴ")
             return
         if queryy == "off":
             PMSET = None
-            await message.reply_text("Pmpermit turned off")
+            await message.reply_text("ᴘᴍᴘᴇʀᴍɪᴛ ᴛᴜʀɴᴇᴅ ᴏғғ")
             return
 
 @USER.on_message(filters.text & filters.private & filters.me)        
@@ -44,7 +45,7 @@ async def autopmPermiat(client: USER, message: Message):
     chat_id = message.chat.id
     if not chat_id in pchats:
         pchats.append(chat_id)
-        await message.reply_text("Approoved to PM due to outgoing messages")
+        await message.reply_text("ᴀᴘᴘʀᴏᴏᴠᴇᴅ ɪɴ ᴘᴍ")
         return
     message.continue_propagation()    
     
@@ -53,7 +54,7 @@ async def pmPermiat(client: USER, message: Message):
     chat_id = message.chat.id
     if not chat_id in pchats:
         pchats.append(chat_id)
-        await message.reply_text("Approoved to PM")
+        await message.reply_text("ᴀᴘᴘʀᴏᴏᴠᴇᴅ ɪɴ ᴘᴍ")
         return
     message.continue_propagation()    
     
@@ -63,6 +64,6 @@ async def rmpmPermiat(client: USER, message: Message):
     chat_id = message.chat.id
     if chat_id in pchats:
         pchats.remove(chat_id)
-        await message.reply_text("Dispprooved to PM")
+        await message.reply_text("ᴅɪsᴘᴘʀᴏᴏᴠᴇᴅ ɪɴ ᴘᴍ")
         return
     message.continue_propagation()

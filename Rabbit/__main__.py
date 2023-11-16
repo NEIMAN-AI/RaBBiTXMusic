@@ -40,7 +40,7 @@ async def rabbit_startup():
     try:
         await app.send_message(
             LOGGER_GRP,
-            f"** {BOT_NAME} started successfully**\n\n **__don't forgot to join @RaBBiT_GuYs__**\n\n Enjoy ur Bot 🎧",
+            f"** {BOT_NAME} sᴛᴀʀᴛᴇᴅ sᴜᴄᴄᴇssғᴜʟʟʏ**\n\n **__ᴅᴏɴ'ᴛ ғᴏʀɢᴏᴛ ᴛᴏ ᴊᴏɪɴ @RaBBiT_GuYs__**\n\n **ᴇɴᴊᴏʏ ʏᴏᴜʀ ʙᴏᴛ** 🎧",
         )
     except:
         LOGGER.error(
@@ -50,7 +50,7 @@ async def rabbit_startup():
     try:
         await app2.send_message(
             LOGGER_GRP,
-            f"**{BUNNY_NAME} started successfully**\n\n **__don't forgot to join @RaBBiT_GuYs__**\n\n Enjoy ur Bot 🎧",
+            f"**{BUNNY_NAME} sᴛᴀʀᴛᴇᴅ sᴜᴄᴄᴇssғᴜʟʟʏ**\n\n **__ᴅᴏɴ'ᴛ ғᴏʀɢᴏᴛ ᴛᴏ ᴊᴏɪɴ @RaBBiT_GuYs__**\n\n **ᴇɴᴊᴏʏ ʏᴏᴜʀ ʙᴏᴛ** 🎧",
         )
     except:
         LOGGER.error(
