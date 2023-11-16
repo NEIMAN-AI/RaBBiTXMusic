@@ -41,7 +41,8 @@ Required :-
 
 - `APP_ID`  =  Get this value from my.telegram.org
 - `API_HASH`  =  Get this value from my.telegram.org
-- `SESSION`  =  Get this by using bot on telegram 
+- `SESSION`  =  Get this by using bot on telegram
+- `LOG_GROUP_ID` get it from telegram by creating private group and fill here that's group id
 - `BOT_TOKEN`  =  Make A Bot From [@BotFather](https://t.me/botfather) and paste it's token.
 - `SUPPORT_CHAT` = Use any public group link
 - `SUPPORT_CHANNEL` = Use any public channel link
