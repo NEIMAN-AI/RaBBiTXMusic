@@ -1,4 +1,4 @@
-[![RaBBiT](https://te.legra.ph/file/4abd9c54ef0d7899c763a.jpg)](https://github.com/ITZ-RaBBiT/RaBBiTXMusic)
+[![RaBBiT](https://te.legra.ph/file/0bb646c45774cb8b47e5b.jpg)](https://github.com/ITZ-RaBBiT/RaBBiTXMusic)
 
 
 <h1 align="center">
