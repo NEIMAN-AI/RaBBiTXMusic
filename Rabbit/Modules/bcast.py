@@ -36,4 +36,4 @@ async def bcast(_, m : Message):
             print(e)
             failed +=1
 
-    await lel.edit(f"•ꜱᴜᴄᴄᴇꜱꜱꜰᴜʟʟ ᴛᴏ `{success}` ᴜꜱᴇʀꜱ.\n• ꜰᴀɪʟᴅ ᴛᴏo `{failed}` ᴜꜱᴇʀꜱ.\n• ꜰᴏᴜɴᴅ `{blocked}` Blocked users \n• Found `{deactivated}` ᴅᴇᴀᴄᴛɪᴠᴀᴛᴇᴅ ᴜꜱᴇʀꜱ.")
+    await lel.edit(f"•────────────────•\n ʙʀᴏᴀᴅᴄᴀsᴛ ᴄᴏᴍᴘʟᴇᴛᴇᴅ\n•────────────────•\n•➢ ꜱᴜᴄᴄᴇꜱꜱꜰᴜʟʟ ᴛᴏ `{success}` ᴜꜱᴇʀꜱ.\n\n•➢ ꜰᴀɪʟᴅ ᴛᴏo `{failed}` ᴜꜱᴇʀꜱ.\n\n•➢ ꜰᴏᴜɴᴅ `{blocked}` Blocked users\n\n•➢ Found `{deactivated}` ᴅᴇᴀᴄᴛɪᴠᴀᴛᴇᴅ ᴜꜱᴇʀꜱ.")
