@@ -46,6 +46,11 @@
         "value": "ENABLE",
         "required": true
       },
+      "MONGODB_URL": {
+        "description": "MONGODB_URL get it from mongodb.com",
+        "value": "",
+        "required": true
+      },
       "OWNER_ID": {
         "description": "Fill your user id here. (Must be integer)",
         "value": "",
