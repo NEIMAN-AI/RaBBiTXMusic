@@ -26,13 +26,8 @@
         "value": "",
         "required": true
       },
-      "LOGGER_LINK": {
-        "description": "LOGGER_USERNAME get it from telegram make PUBLIC group and fill here that's group link",
-        "value": "",
-        "required": true
-      },
-      "LOGGER_ID": {
-        "description": "LOGGER_ID get it from telegram make public group and fill here that's group id",
+      "LOG_GROUP_ID": {
+        "description": "LOG_GROUP_ID get it from telegram make PRIVATE group and fill here that's group id",
         "value": "",
         "required": true
       },
