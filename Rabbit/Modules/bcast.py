@@ -4,9 +4,11 @@ from pyrogram.errors import UserNotParticipant
 from pyrogram.errors.exceptions.flood_420 import FloodWait
 from Powers.database import add_user, add_group, all_users, all_groups, users, remove_user
 from Rabbit import app
+from config import SUDO_USERS
+import config
 
 
-@app.on_message(filters.command("bcast") & filters.user(cfg.SUDO))
+@app.on_message(filters.command("bcast") & filters.user(config.SUDO_USERS))
 async def bcast(_, m : Message):
     allusers = users
     lel = await m.reply_text("`⚡️ ᴩʀᴏᴄᴇꜱꜱɪɴɢ...`")
