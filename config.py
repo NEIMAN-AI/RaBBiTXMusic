@@ -37,3 +37,6 @@ LOGGER_ID = getenv("LOGGER_ID", None) # LOGGER_ID A logger group id get it by ad
 
 # DATABASES
 MONGODB_URL = getenv("MONGODB_URL", None) # MONGODB_URL get it from mongodb.com
+
+# HANDLER
+COMMAND_PREFIXES = list(getenv("COMMAND_PREFIXES", "/ !").split())
