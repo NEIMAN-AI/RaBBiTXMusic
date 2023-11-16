@@ -44,4 +44,4 @@ def all_users():
 def all_groups():
     group = groups.find({})
     grps = len(list(group))
-    return grp
+    return grps
