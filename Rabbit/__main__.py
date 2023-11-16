@@ -19,8 +19,7 @@ from Rabbit import (
 )
 # importing all modules
 from Rabbit.Modules import ALL_MODULES
-from config import LOGGER_LINK 
-LOGGER_GRP = config.LOGGER_LINK.split("me/")[1]
+from config import LOG_GROUP_ID as LOGGER_GRP
 
 # connecting all modules with the bot
 async def rabbit_startup():
