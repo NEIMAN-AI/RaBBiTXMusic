@@ -75,13 +75,13 @@
         "description": "Link of your telegram support group. (Must pe public)",
         "value": "",
         "required": true
-    },
-    "SUPPORT_CHANNEL": {
+     },
+     "SUPPORT_CHANNEL": {
       "description": "Link of your support channel (must public channel link",
       "value": "",
       "required": true
-    },
-    "buildpacks": [
+     },
+     "buildpacks": [
           {
               "url": "heroku/python"
           },
@@ -93,4 +93,4 @@
           }
       ],
       "stack": "container"
-}
+ }
