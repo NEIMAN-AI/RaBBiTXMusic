@@ -2,7 +2,7 @@ from pyrogram import filters
 from pyrogram.enums import ChatType, ParseMode
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message
 from youtubesearchpython.__future__ import VideosSearch
-
+fallen
 import config
 from Rabbit import BOT_MENTION, BOT_NAME, app
 from Rabbit.Powers import gp_buttons, pm_buttons
@@ -11,7 +11,7 @@ from Rabbit.Powers.dossier import *
 
 @app.on_message(filters.command(["start"]) & ~filters.forwarded)
 @app.on_edited_message(filters.command(["start"]) & ~filters.forwarded)
-async def fallen_st(_, message: Message):
+async def rabbit_st(_, message: Message):
     if message.chat.type == ChatType.PRIVATE:
         if len(message.text.split()) > 1:
             cmd = message.text.split(None, 1)[1]
