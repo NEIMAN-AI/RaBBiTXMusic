@@ -31,7 +31,7 @@ async def fallen_st(_, message: Message):
                     published = result["publishedTime"]
                 searched_text = f"""
 •────────────────•
-• **ᴛʀᴀᴄᴋ ɪɴғᴏʀɴᴀᴛɪᴏɴ**•
+• **ᴛʀᴀᴄᴋ ɪɴғᴏʀɴᴀᴛɪᴏɴ** •
 ╭────────────────•
 ╰➢ **ᴛɪᴛʟᴇ :** {title}
 ╭────────────────•
