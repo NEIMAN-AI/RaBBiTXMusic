@@ -42,7 +42,7 @@ async def rabbit_startup():
         )
     except:
         LOGGER.error(
-            f"{BOT_NAME} failed to send message at @{SUNAME}, go & check. logs fast!!"
+            f"{BOT_NAME} failed to send message at , go & check. logs fast!!"
         )
 
     try:
@@ -52,7 +52,7 @@ async def rabbit_startup():
         )
     except:
         LOGGER.error(
-            f"{ASS_NAME} failed to send message at @{SUNAME},  go & check logs fast!!."
+            f"{ASS_NAME} failed to send message at ,  go & check logs fast!!."
         )
 
     await app2.send_message(BOT_USERNAME, "/start")
