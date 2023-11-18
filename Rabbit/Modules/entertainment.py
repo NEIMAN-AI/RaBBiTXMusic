@@ -1,7 +1,7 @@
 import requests
 from pyrogram import Client
 from Rabbit import BOT_USERNAME
-from Rabbit.powers.command import command
+from Rabbit.Powers.command import command
 from Rabbit import app as Client
 
 @Client.on_message(command(["asupan", f"asupan@{BOT_USERNAME}"]))
