@@ -93,13 +93,4 @@ you can generate session by heroku console by running `python3 session.py` soo d
 >     bash bunny
 -------
 
-<h3 align="center">
-    ─「 ᴄʀᴇᴅɪᴛs 」─
-</h3>
-
-- <b>[MrRaBBiT](https://t.me/fuck_uff_XD)  ғᴏʀ  [RaBBiTXMusic](https://github.com/ITZ-RaBBiT/RaBBiTXMusic) </b>
-- <b>[ITZ-RaBBiT](https://github.com/ITZ-RaBBiT)  ғᴏʀ  [pyrogram](https://github.com/pyrogram/pyrogram) </b>
-- <b>[GitHub](https://github.com)  ғᴏʀ  [ᴘʏ-ᴛɢᴄᴀʟʟs](https://github.com/pytgcalls/pytgcalls) </b>
-
-
 ━━━━━━━━━━━━━━━━━━━━
