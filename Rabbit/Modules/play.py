@@ -157,7 +157,7 @@ async def play(_, message: Message):
     else:
         if len(message.command) < 2:
             return await rabbit.edit_text("» ᴡʜᴀᴛ ᴅᴏ ʏᴏᴜ ᴡᴀɴɴᴀ ᴘʟᴀʏ ʙᴀʙʏ ?")
-        await rabbit.edit_text("🔎")
+        await rabbit.edit_text("🔎 **ᴘʀᴏᴄᴇssɪɴɢ...**")
         query = message.text.split(None, 1)[1]
         try:
             results = YoutubeSearch(query, max_results=1).to_dict()
