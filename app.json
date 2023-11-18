@@ -1,7 +1,6 @@
 {
     "name": "ʀᴀʙʙɪᴛx ダ ᴍᴜsɪᴄ",
     "description": "A music Player Bot repo which can Play music in telegram video chats made with python py-tgcalls and ur love .",
-    "logo": "https://te.legra.ph/file/d3adccda5b3e6cb7a89bf.jpg",
     "keywords": [
     "python3",
     "telegram",
@@ -79,7 +78,6 @@
      "SUPPORT_CHANNEL": {
        "description": "Link of your support channel (must public channel link",
        "value": "",
-       "required": true
      },
      "buildpacks": [
            {
