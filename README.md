@@ -1,4 +1,4 @@
-[![RaBBiT](https://te.legra.ph/file/4abd9c54ef0d7899c763a.jpg)](https://github.com/ITZ-RaBBiT/RaBBiTXMusic)
+[![RaBBiT](https://te.legra.ph/file/0bb646c45774cb8b47e5b.jpg)](https://github.com/ITZ-RaBBiT/RaBBiTXMusic)
 
 
 <h1 align="center">
@@ -41,7 +41,8 @@ Required :-
 
 - `APP_ID`  =  Get this value from my.telegram.org
 - `API_HASH`  =  Get this value from my.telegram.org
-- `SESSION`  =  Get this by using bot on telegram 
+- `SESSION`  =  Get this by using bot on telegram
+- `LOG_GROUP_ID` get it from telegram by creating private group and fill here that's group id
 - `BOT_TOKEN`  =  Make A Bot From [@BotFather](https://t.me/botfather) and paste it's token.
 - `SUPPORT_CHAT` = Use any public group link
 - `SUPPORT_CHANNEL` = Use any public channel link
@@ -91,14 +92,5 @@ you can generate session by heroku console by running `python3 session.py` soo d
 
 >     bash bunny
 -------
-
-<h3 align="center">
-    ─「 ᴄʀᴇᴅɪᴛs 」─
-</h3>
-
-- <b>[MrRaBBiT](https://t.me/fuck_uff_XD)  ғᴏʀ  [RaBBiTXMusic](https://github.com/ITZ-RaBBiT/RaBBiTXMusic) </b>
-- <b>[ITZ-RaBBiT](https://github.com/ITZ-RaBBiT)  ғᴏʀ  [pyrogram](https://github.com/pyrogram/pyrogram) </b>
-- <b>[GitHub](https://github.com)  ғᴏʀ  [ᴘʏ-ᴛɢᴄᴀʟʟs](https://github.com/pytgcalls/pytgcalls) </b>
-
 
 ━━━━━━━━━━━━━━━━━━━━

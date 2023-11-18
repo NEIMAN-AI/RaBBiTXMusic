@@ -69,8 +69,8 @@ helpmenu = [
         )
     ],
     [
-        InlineKeyboardButton(text="• sᴜᴅᴏ •", callback_data="fallen_cb sudo"),
-        InlineKeyboardButton(text="• ᴏᴡɴᴇʀ •", callback_data="fallen_cb owner"),
+        InlineKeyboardButton(text="• sᴜᴅᴏ •", callback_data="rabbit_cb sudo"),
+        InlineKeyboardButton(text="• ᴏᴡɴᴇʀ •", callback_data="rabbit_cb owner"),
     ],
     [
         InlineKeyboardButton(text="• ʙᴀᴄᴋ •", callback_data="rabbit_home"),
