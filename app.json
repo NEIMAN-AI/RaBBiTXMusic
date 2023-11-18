@@ -77,20 +77,20 @@
         "required": true
      },
      "SUPPORT_CHANNEL": {
-      "description": "Link of your support channel (must public channel link",
-      "value": "",
-      "required": true
+       "description": "Link of your support channel (must public channel link",
+       "value": "",
+       "required": true
      },
      "buildpacks": [
-          {
-              "url": "heroku/python"
-          },
-          {
-              "url": "heroku/nodejs"
-          },
-          {
-              "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"
-          }
-      ],
-      "stack": "container"
+           {
+               "url": "heroku/python"
+           },
+           {
+               "url": "heroku/nodejs"
+           },
+           {
+               "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"
+           }
+       ],
+       "stack": "container"
  }
